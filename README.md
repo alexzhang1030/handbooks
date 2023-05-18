@@ -1,3 +1,3 @@
 # handbooks
 
-Visit [handbooks](https://handbooks.netlify.app/) to see the site in action.
+Visit [handbooks](https://handbooks.vercel.app/) to see the site in action.
