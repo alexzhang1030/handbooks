@@ -1,5 +1,7 @@
 # Zod
 
+[官网](https://zod.dev/) [Repo](https://github.com/colinhacks/zod)
+
 ## 动机
 
 通过使用 `zod` 来验证数据结构的可靠性。
@@ -34,6 +36,47 @@ function buildUser(from: any) {
   return userSchema.parse(from)
 }
 ```
-```
 
 ## 基础用法
+
+### 1. 基础类型
+
+Zod 支持以下几种基础类型
+
+```ts
+import { z } from 'zod'
+
+// primitive values
+z.string()
+z.number()
+z.bigint()
+z.boolean()
+z.date()
+z.symbol()
+
+// empty types
+z.undefined()
+z.null()
+z.void() // accepts undefined
+
+// catch-all types
+// allows any value
+z.any()
+z.unknown()
+
+// never type
+// allows no values
+z.never()
+```
+
+### 2. Zod 转 TS 
+
+可以使用 `z.infer` 来获取 Zod 的类型
+
+```ts
+const A = z.string()
+type A = z.infer<typeof A> // string
+
+const u: A = 12 // TypeError
+const u: A = 'asdf' // compiles
+```
