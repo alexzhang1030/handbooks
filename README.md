@@ -1,15 +1,3 @@
-# lib-name
+# handbooks
 
-lib-description
-
-replace `lib-name` and `lib-description` to real name and description.
-
-## Installation
-
-```bash
-pnpm i lib-name
-```
-
-## License
-
-MIT
+Visit [handbooks](https://handbooks.netlify.app/) to see the site in action.

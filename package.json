@@ -3,9 +3,9 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "simple-git-hooks",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.38.6",

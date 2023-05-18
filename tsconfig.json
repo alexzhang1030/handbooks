@@ -19,7 +19,7 @@
     }
   },
   "include": [
-    ".vitepress/**/*.ts"
+    "docs/.vitepress/**/*.ts"
   ],
   "exclude": [
     "dist",
