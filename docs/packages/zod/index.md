@@ -1,6 +1,6 @@
 # Zod
 
-[官网](https://zod.dev/) [Repo](https://github.com/colinhacks/zod)
+[官网](https://zod.dev/) - [Repo](https://github.com/colinhacks/zod)
 
 ## 动机
 

@@ -14,5 +14,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/alexzhang1030/handbooks' },
     ],
+    search: {
+      provider: 'local',
+    },
   },
 })
