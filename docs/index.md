@@ -8,6 +8,6 @@ hero:
   actions:
     - theme: brand
       text: Read now 
-      link: /markdown-examples
+      link: /packages/zod/
 ---
 

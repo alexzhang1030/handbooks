@@ -2,7 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config-ts': ^0.38.6
+  '@types/node': ^20.2.1
   eslint: ^8.40.0
+  fast-glob: ^3.2.12
   lint-staged: ^13.2.2
   simple-git-hooks: ^2.8.1
   typescript: ^5.0.4
@@ -11,11 +13,13 @@ specifiers:
 
 devDependencies:
   '@antfu/eslint-config-ts': 0.38.6_3qfatcekpgbllh6uk5ivyhkbxq
+  '@types/node': 20.2.1
   eslint: 8.40.0
+  fast-glob: 3.2.12
   lint-staged: 13.2.2
   simple-git-hooks: 2.8.1
   typescript: 5.0.4
-  vitepress: 1.0.0-alpha.76
+  vitepress: 1.0.0-alpha.76_@types+node@20.2.1
   vue: 3.3.4
 
 packages:
@@ -553,6 +557,10 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
+  /@types/node/20.2.1:
+    resolution: {integrity: sha512-DqJociPbZP1lbZ5SQPk4oag6W7AyaGMO6gSfRwq3PWl4PXTwJpRQJhDq4W0kzrg3w6tJ1SwlvGZ5uKFHY13LIg==}
+    dev: true
+
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
@@ -706,7 +714,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.3.8
+      vite: 4.3.8_@types+node@20.2.1
       vue: 3.3.4
     dev: true
 
@@ -3204,7 +3212,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/4.3.8:
+  /vite/4.3.8_@types+node@20.2.1:
     resolution: {integrity: sha512-uYB8PwN7hbMrf4j1xzGDk/lqjsZvCDbt/JC5dyfxc19Pg8kRm14LinK/uq+HSLNswZEoKmweGdtpbnxRtrAXiQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3229,6 +3237,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 20.2.1
       esbuild: 0.17.19
       postcss: 8.4.23
       rollup: 3.22.0
@@ -3236,7 +3245,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress/1.0.0-alpha.76:
+  /vitepress/1.0.0-alpha.76_@types+node@20.2.1:
     resolution: {integrity: sha512-fzR1pDpGnSMeCJ+AnDdMe/ETD2G0Go+g6mTxDv9ps7Hmr1JjVqw97nasCyZg3jgfQxi2nt78EJ/bw7hY5n/rlw==}
     hasBin: true
     dependencies:
@@ -3251,7 +3260,7 @@ packages:
       mark.js: 8.11.1
       minisearch: 6.1.0
       shiki: 0.14.2
-      vite: 4.3.8
+      vite: 4.3.8_@types+node@20.2.1
       vue: 3.3.4
     transitivePeerDependencies:
       - '@algolia/client-search'

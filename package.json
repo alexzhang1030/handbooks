@@ -9,7 +9,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.38.6",
+    "@types/node": "^20.2.1",
     "eslint": "^8.40.0",
+    "fast-glob": "^3.2.12",
     "lint-staged": "^13.2.2",
     "simple-git-hooks": "^2.8.1",
     "typescript": "^5.0.4",
