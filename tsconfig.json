@@ -14,11 +14,13 @@
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "skipDefaultLibCheck": true,
-    "types": ["vitest/globals"],
     "paths": {
       "@/*": ["src/*"]
     }
   },
+  "include": [
+    ".vitepress/**/*.ts"
+  ],
   "exclude": [
     "dist",
     "node_modules"
