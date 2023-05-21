@@ -7,6 +7,10 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
+  "dependencies": {
+    "camelcase": "^7.0.1",
+    "fmt-it": "^0.4.0"
+  },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.38.6",
     "@types/node": "^20.2.1",

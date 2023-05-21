@@ -3,13 +3,19 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config-ts': ^0.38.6
   '@types/node': ^20.2.1
+  camelcase: ^7.0.1
   eslint: ^8.40.0
   fast-glob: ^3.2.12
+  fmt-it: ^0.4.0
   lint-staged: ^13.2.2
   simple-git-hooks: ^2.8.1
   typescript: ^5.0.4
   vitepress: 1.0.0-alpha.76
   vue: ^3.3.4
+
+dependencies:
+  camelcase: 7.0.1
+  fmt-it: 0.4.0
 
 devDependencies:
   '@antfu/eslint-config-ts': 0.38.6_3qfatcekpgbllh6uk5ivyhkbxq
@@ -1072,6 +1078,11 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
+  /camelcase/7.0.1:
+    resolution: {integrity: sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==}
+    engines: {node: '>=14.16'}
+    dev: false
+
   /chalk/2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
     engines: {node: '>=4'}
@@ -1873,6 +1884,10 @@ packages:
   /flatted/3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
+
+  /fmt-it/0.4.0:
+    resolution: {integrity: sha512-sJd6cvLGNcMj5SLKqiwrX+3fmP9OW1R+9muA7iu4NgvxBaExsyF/Wx053jHwS9pRc7h3kw3dQQcz7gwFCD/YaQ==}
+    dev: false
 
   /focus-trap/7.4.2:
     resolution: {integrity: sha512-KMjf+H5uDWPkwSQVqE5r/+vOkP5zBWwVBoWPIZxU3gfg+M8IT+Y8s+vXQqZvHEIXyHPKHrSm6m4G4ceF98OZ8w==}
